@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Allura);
+@import url(https://fonts.googleapis.com/css?family=Lato:100);
+
+::selection {
+background: rgba(255,255,255,0.6);
+color:#000;
+}
+
+::-moz-selection {
+background: rgba(255,255,255,0.6);
+color:#000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+background: #000;
+}
+
+main{
+	position: absolute;
+	width: calc(100% - 6px);
+	height: calc(100% - 6px);
+	margin: 0 auto;
+	background: #000;
+	border: 3px solid #fff;
+}
+
+#text{
+	position: absolute;
+	width: 700px;
+	text-align: center;
+	top:50%;
+	margin-top: -100px;
+	left: 50%;
+	margin-left: -350px;
+}
+
+#text a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#text a:hover {
+	text-decoration: underline;
+}
+
+#title{
+	font-size: 100px;
+	color: #fff;
+	/* text-shadow: 1px 1px 5px #fff,-1px -1px 5px #fff;
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,1))); */
+}
+
+h1{
+	font-family: tangerine, cursive;
+	color: #fff;
+	font-weight: 100; 
+	font-size: 2.5em;
+}
+
+footer{
+	font-family: alex-brush, cursive;
+	font-size: 1em;
+	text-align: right;
+	position: fixed;
+	top: 100%;
+	margin-top: -20px;
+	left: 100%;
+	margin-left: -155px;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-weight: 100; 
+	font-size: 23px;
+}
+
+.copy{
+	color: #fff;
+	font-family: alex-brush, cursive;
+	font-size: 1em;
+}
+
+.loop{
+	background: url(loop.png);
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	z-index: 2;
+}
+
+.migishita{
+	top: 100%;
+	margin-top: -50px;
+	-webkit-transform: rotate(-90deg);
+}
+
+.hidarishita{
+	top: 100%;
+	margin-top: -50px;
+	left: 100%;
+	margin-left: -50px;
+	-webkit-transform: rotate(180deg);
+}
+
+.hidariue{
+	left: 100%;
+	margin-left: -50px;
+	-webkit-transform: rotate(90deg);
+}
+
+#image{
+	position: fixed;
+	width: 200px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -100px;
+	text-align: center;
+}
+
+
+
+
+#text{
+	-animation-name: fadein;
+	-animation-duration: 2s;
+	-animation-iteration-count: 1;
+	-webkit-animation-name: fadein;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: 1;
+	-moz-animation-name: fadein;
+	-moz-animation-duration: 2s;
+	-moz-animation-iteration-count: 1;
+}
+
+@keyframes 'fadein'{
+	0%{opacity:0;}
+	100%{opacity: 1;}
+}
+
+@-webkit-keyframes 'fadein'{
+	0%{opacity:0;}
+	100%{opacity: 1;}
+}
+
+@-moz-keyframes 'fadein'{
+	0%{opacity:0;}
+	100%{opacity: 1;}
+}
+
+#border{
+	position: fixed;
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+	border: 5px #fff solid;
+}
+
+.ssinga{
+	font-size: 1em;
+	padding-top: 1em;
+}
+
+.ssinga{
+	-animation-name: fadein2;
+	-animation-duration: 4s;
+	-animation-iteration-count: 1;
+	-webkit-animation-name: fadein2;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-iteration-count: 1;
+	-moz-animation-name: fadein2;
+	-moz-animation-duration: 4s;
+	-moz-animation-iteration-count: 1;
+}
+
+@keyframes 'fadein2'{
+	0%{opacity:0;}
+	50%{opacity: 0}
+	100%{opacity: 1;}
+}
+
+@-webkit-keyframes 'fadein2'{
+	0%{opacity:0;}
+	50%{opacity: 0}
+	100%{opacity: 1;}
+}
+
+@-moz-keyframes 'fadein2'{
+	from{opacity:0;}
+	50%{opacity: 0}
+	to{opacity: 1;}
+}
