@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+h1.title{
+	color: #f1c40f;
+	text-shadow:1px 1px 0px #e67e22,2px 2px 0px #e67e22,3px 3px 0px #e67e22;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 60px;
+}
+
+.button1{
+	color: #fff;
+	background: #bdc3c7;
+	padding: 5px 12px;
+	border-radius: 4px;
+	border-bottom: 4px solid #95a5a6;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: 0.1s linear;
+	transition: 0.1s linear;
+}
+
+.button1:hover , .button1:focus{
+	color: #fff;
+	text-decoration: none;
+	background: #ACB4B9;
+}
+
+.button1:active{
+	position: relative;
+	border-bottom: 2px solid #95a5a6;
+	top: 2px;
+}
