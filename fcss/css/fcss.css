@@ -13,7 +13,8 @@ h1.title{
 	background: #bdc3c7;
 	padding: 5px 12px;
 	border-radius: 4px;
-	border-bottom: 4px solid #95a5a6;
+	border-bottom: 4px solid;
+	border-color: #95a5a6;
 	text-align: center;
 	cursor: pointer;
 	-webkit-transition: 0.1s linear;
@@ -28,9 +29,22 @@ h1.title{
 
 .button1:active{
 	position: relative;
-	border-bottom: 2px solid #95a5a6;
+	border-bottom: 2px solid;
+	border-color:#95a5a6;
 	top: 2px;
 }
+
+.green{background: #2ecc71;border-color:#27ae60;}
+.green:hover , .green:focus{background:#2CC06B;}
+.green:active{border-color: #27ae60;}
+
+.blue{background: #3498db;border-color:#2980b9;}
+.blue:hover , .blue:focus{background:#258FD6;}
+.blue:active{border-color: #2980b9;}
+
+.red{background: #e74c3c;border-color:#c0392b;}
+.red:hover , .red:focus{background:#E43825;}
+.red:active{border-color: #c0392b;}
 
 .button2{
 	color: #fff;
