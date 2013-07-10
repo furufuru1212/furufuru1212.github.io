@@ -31,3 +31,37 @@ h1.title{
 	border-bottom: 2px solid #95a5a6;
 	top: 2px;
 }
+
+.button2{
+	color: #fff;
+	background: #bdc3c7;
+	padding: 7px 10px;
+	border-radius: 0px 5px 5px 0px;
+	border-left: 4px solid #fff;
+	text-align: center;
+	cursor: pointer;
+	-webkit-transition: 0.1s linear;
+	transition: 0.1s linear;
+}
+
+.button2:hover , .button2:focus{
+	color: #fff;
+	text-decoration: none;
+	background: #ACB4B9;
+}
+
+.button2:active{
+	background: #A3ACB1;
+}
+
+.pink{
+	background: #9E306C;
+}
+
+.pink:hover , .pink:focus{
+	background: #822658;
+}
+
+.pink:active{
+	background: #762351;
+}
