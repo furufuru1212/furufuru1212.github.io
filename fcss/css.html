@@ -4,7 +4,7 @@
 	<title>Furufuru Framework:: Fcss</title>
 	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<style>*{margin:0;}body {padding-top: 40px;}::selection {background: #9d2cde;color: #ffffff;}</style>
+	<style>*{margin:0;}body {padding-top: 40px;}::selection {background: #c0392b;color: #ffffff;}.affix{top:70px;}</style>
 	<link href="css/fcss.css" rel="stylesheet">
 </head>
 <body>
@@ -29,10 +29,13 @@
 	 <div class="container" style="padding-top:20px">
 	 	<div class="row" style="background:#fff">
 	 		<div class="span3">
+	 			<div class="affixd" style="width:220px;">
 	 			<ul class="nav nav-tabs nav-stacked">
 	 				<li><a href="#typo">Typography</a></li>
 	 				<li><a href="#button">Buttons</a></li>
+	 				<li><a href="#input">Input</a></li>
 	 			</ul>
+	 		</div>
 	 		</div>
 	 		<div class="span9">
 	 			<h1 id="typo">Typography</h1>
@@ -107,6 +110,17 @@
 	 				</tbody>
 	 			</table>
 
+	 			<h1 style="padding-top:30px;" id="input">Input</h1>
+	 			<hr>
+	 			<h2>input1</h2>
+	 			<p>description</p>
+	 			<div class="well">
+	 				<input type="text" class="input1" style="-webkit-box-shadow:none;box-shadow:none;">
+	 			</div>
+	 			<p>Code:</p>
+<pre>
+&lt;input type="text" class="input1"&gt;
+</pre>
 	 		</div>
 	 	</div>
 	 </div>
@@ -117,5 +131,17 @@
 	 	</div>
 	 </footer>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="js/bootstrap-affix.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.affixd').affix({
+		offset:{
+			top:150,
+			bottom:150
+		}
+	});
+});
+</script>
 </html>
