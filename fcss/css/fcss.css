@@ -46,6 +46,10 @@ h1.title{
 .red:hover , .red:focus{background:#E43825 !important;}
 .red:active{border-color: #c0392b !important;}
 
+.purple{background: #9b59b6 !important;border-color:#6f2b8a;}
+.purple:hover , .purple:focus{background:#813d9c !important;}
+.purple:active{border-color: #6f2b8a !important;}
+
 .button2{
 	color: #fff;
 	background: #bdc3c7;
