@@ -34,17 +34,17 @@ h1.title{
 	top: 2px;
 }
 
-.green{background: #2ecc71;border-color:#27ae60;}
-.green:hover , .green:focus{background:#2CC06B;}
-.green:active{border-color: #27ae60;}
+.green{background: #2ecc71 !important;border-color:#27ae60;}
+.green:hover , .green:focus{background:#2CC06B !important;}
+.green:active{border-color: #27ae60 !important;}
 
-.blue{background: #3498db;border-color:#2980b9;}
-.blue:hover , .blue:focus{background:#258FD6;}
-.blue:active{border-color: #2980b9;}
+.blue{background: #3498db !important;border-color:#2980b9;}
+.blue:hover , .blue:focus{background:#258FD6 !important;}
+.blue:active{border-color: #2980b9 !important;}
 
-.red{background: #e74c3c;border-color:#c0392b;}
-.red:hover , .red:focus{background:#E43825;}
-.red:active{border-color: #c0392b;}
+.red{background: #e74c3c !important;border-color:#c0392b;}
+.red:hover , .red:focus{background:#E43825 !important;}
+.red:active{border-color: #c0392b !important;}
 
 .button2{
 	color: #fff;
@@ -66,18 +66,7 @@ h1.title{
 
 .button2:active{
 	background: #A3ACB1;
-}
-
-.pink{
-	background: #9E306C;
-}
-
-.pink:hover , .pink:focus{
-	background: #822658;
-}
-
-.pink:active{
-	background: #762351;
+	border-color: #fff !important;
 }
 
 input[type="text"]{
